@@ -47,7 +47,7 @@ public class DiaDia {
 
 
 	/**
-	 * Processa una istruzione 
+	 * Processa una istruzione (nucleo)
 	 *
 	 * @return true se l'istruzione e' eseguita e il gioco continua, false altrimenti
 	 */
