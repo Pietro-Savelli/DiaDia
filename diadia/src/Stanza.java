@@ -168,7 +168,7 @@ public class Stanza {
 	 * @param nomeAttrezzo
 	 * @return true se l'attrezzo e' stato rimosso, false altrimenti
 	 */
-	public boolean removeAttrezzo(Attrezzo attrezzo) {
+	public boolean removeAttrezzo(Attrezzo nomeAttrezzo) {
 		// TODO da implementare
 		return false;
 	}
