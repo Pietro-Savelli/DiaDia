@@ -2,6 +2,8 @@
 
 import java.util.Scanner;
 
+// ATTENZIONE DIADIA FA TROPPE COSE (inizia il gioco, ha tutti i comandi possobili, processa le istruzioni)
+
 /**
  * Classe principale di diadia, un semplice gioco di ruolo ambientato al dia.
  * Per giocare crea un'istanza di questa classe e invoca il letodo gioca
@@ -26,7 +28,7 @@ public class DiaDia {
 			"o regalarli se pensi che possano ingraziarti qualcuno.\n\n"+
 			"Per conoscere le istruzioni usa il comando 'aiuto'.";
 	
-	static final private String[] elencoComandi = {"vai", "aiuto", "fine"};
+	static final private String[] elencoComandi = {"vai", "aiuto", "fine"}; // conosce tutti i comnadi 
 
 	private Partita partita;
 
@@ -48,7 +50,7 @@ public class DiaDia {
 
 
 	/**
-	 * Processa una istruzione
+	 * Processa una istruzione(legge le stringe e dargli un senso)
 	 *
 	 * @return true se l'istruzione e' eseguita e il gioco continua, false altrimenti
 	 */
@@ -71,7 +73,7 @@ public class DiaDia {
 			return false;
 	}   
 
-	// implementazioni dei comandi dell'utente:
+	// implementazioni dei comandi dell'utente:(conosce tutti i comnadi)
 
 	/**
 	 * Stampa informazioni di aiuto.

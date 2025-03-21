@@ -1,5 +1,6 @@
 
-
+// SI DEVE OCCCUPARE DELLO STATO DELLA PARTITA
+// CREA UNA CLASSE LABIRITO CHE GESTISCE LABIRINTO(AUTONOMO E ESISTENTE  PRESCINDERE)
 
 
 /**
@@ -13,11 +14,11 @@
 public class Partita {
 
 	static final private int CFU_INIZIALI = 20;
-
+	
 	private Stanza stanzaCorrente;
 	private Stanza stanzaVincente;
 	private boolean finita;
-	private int cfu;
+	private int cfu; 
 	
 	public Partita(){
 		creaStanze();
