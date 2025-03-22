@@ -50,8 +50,4 @@ public class Attrezzo {
 	public String toString() {
 		return this.getNome()+" ("+this.getPeso()+"kg)";
 	}
-	
-	public String gianni() {
-		return this.getNome()+" ("+this.getPeso()+"kg)";
-	}
 }
