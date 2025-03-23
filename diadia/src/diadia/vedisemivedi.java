@@ -1,3 +1,4 @@
+package diadia;
 
 
 public class vedisemivedi {
